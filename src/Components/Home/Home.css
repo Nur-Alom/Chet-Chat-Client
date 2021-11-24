@@ -1,0 +1,32 @@
+.home{
+    flex: 0 0 25%;
+    background-color: #0099ff;
+    padding: 15px 20px;
+    border-radius: 5px;
+  }
+  .home-form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-form input{
+    flex: 0 0 100%;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .home-submit-btn{
+      padding: 5px 92px;
+      margin-top: 10px;
+      font-weight: bold;
+      background-color: green;
+      color: white;
+      border: none;
+  }
